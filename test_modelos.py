@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # PON TU API KEY AQUI
-API_KEY = "AIzaSyDMPk2xZRMnxhe4VSv5mTVcDLzle3SWgNA"
+API_KEY = "GEMINI_API_KEY"
 genai.configure(api_key=API_KEY)
 
 print("🔎 Buscando modelos disponibles para tu cuenta...")
